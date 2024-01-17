@@ -1,0 +1,207 @@
+body {
+   margin: 0px;
+   color: black;
+   font-family: montserrat;
+   background: #E6E6E6;
+}
+
+header {
+   padding: 20px;
+   background: url('api_main_anim_2_1.gif');
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.btna {
+   padding: 15px;
+   color: lightseagreen;
+   text-decoration: none;
+   background: white;
+   border: 2px solid darkseagreen;
+   border-radius: 5px;
+   font-weight: bold;
+   transition: 0.3s ease;
+}
+
+.btna:hover {
+   color: greenyellow;
+   text-decoration: none;
+   background: black;
+   border: 2px solid greenyellow;
+   border-radius: 5px;
+}
+
+.intro {
+   padding: 20px;
+   color: white;
+}
+
+header li {
+   display: inline;
+}
+
+header li a {
+   color: black;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.textcont {
+   color: black;
+}
+
+.img {
+   width: 150px;
+   height: 150px;
+   background: url('pfp.jpeg');
+   border-radius: 100%;
+   background-size: cover;
+   border: 2px solid black;
+}
+
+#Services {
+   line-height: 2em;
+   margin: 5px;
+}
+
+nav {
+   padding: 20px;
+   text-align: center;
+   word-spacing: 2em;
+}
+
+.box1 {
+   padding: 20px;
+   margin: 10px;
+   background: transparent;
+}
+
+.box2 {
+   padding: 20px;
+   margin: 10px;
+   background: transparent;
+   justify-content: space-around;
+}
+
+.box3 {
+   padding: 20px;
+   margin: 10px;
+   background: lightgray;
+   border-radius: 5px;
+}
+
+   .Name {
+      padding: 20px;
+      margin: 5px;
+      background: white;
+      border-radius: 5px
+   }
+   
+   .skills {
+      padding: 20px;
+      margin: 5px;
+      background: white;
+      border-radius: 5px
+   }
+   
+   .contacts {
+      padding: 20px;
+      margin: 5px;
+      background: white;
+      border-radius: 5px
+   }
+   
+   .address {
+      padding: 20px;
+      margin: 5px;
+      background: white;
+      border-radius: 5px
+   }
+
+.ign {
+   padding: 20px;
+   margin: 0px auto;
+   transform: translateY(25%);
+}
+
+.hire {
+   margin: 5px;
+   padding: 5px;
+}
+
+   .contact {
+      padding: 20px;
+      margin: 5px;
+      background: #DFEBF6;
+      border-radius: 20px
+   }
+
+footer {
+   padding: 20px;
+   background: #29353C;
+   text-align: center;
+   color: white;
+}
+
+@media (min-width: 500px) {
+   header {
+   padding: 20px;
+   background: url('api_main_anim_2_1.gif');
+   height: 130vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+   
+   header li a {
+      font-size: 20pt;
+   }
+   
+   .textcont {
+      font-size: 20pt;
+   }
+   
+   .intro {
+      margin: auto;
+      text-align: center;
+   }
+   
+   .wrap1 {
+      display: flex;
+   }
+   
+   .ignore {
+      flex: 1;
+   }
+   
+   nav {
+      flex: 1;
+   }
+   
+   section {
+      display: flex;
+   }
+   
+   .invmed {
+      visibility: collapse;
+      font-size: 0pt;
+   }
+   
+   .Name {
+      flex: 1;
+   }
+   
+   .skills {
+      flex: 1;
+   }
+   
+   .contacts {
+      flex: 1;
+   }
+   
+   .address {
+      flex: 1;
+   }
+}
